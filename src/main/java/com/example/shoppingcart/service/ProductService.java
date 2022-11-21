@@ -1,6 +1,5 @@
 package com.example.shoppingcart.service;
-import com.example.shoppingcart.model.Product;
-import com.example.shoppingcart.record.ProductRequest;
+
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
@@ -14,11 +13,11 @@ public class ProductService {
         this.basket = basket;
     }
 
-    public Product addProductToBasket(ProductRequest productRequest) {
-       return this.basket.addProductToList(productRequest);
+    public Integer addIdToBasket(Integer id) {
+       return this.basket.addIdToList(id);
     }
 
-    public Collection<Product> getAllProductToBasket() {
-        return this.basket.getAllProductToBasket();
+    public Collection<Integer> getAllIdsToBasket() {
+        return this.basket.getAllIdsToBasket();
     }
 }

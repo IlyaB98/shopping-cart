@@ -1,12 +1,7 @@
 package com.example.shoppingcart.controller;
 
-import com.example.shoppingcart.model.Product;
-import com.example.shoppingcart.record.ProductRequest;
 import com.example.shoppingcart.service.ProductService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
 
@@ -19,13 +14,13 @@ public class ProductController {
         this.productService = productService;
     }
 
-    @PostMapping("/store/order/add")
-    public Product addProductToBasket(@RequestBody ProductRequest productRequest) {
-        return this.productService.addProductToBasket(productRequest);
+    @GetMapping ("/store/order/add")
+    public Integer addIdToBasket(@RequestParam("id") Integer id) {
+        return this.productService.addIdToBasket(id);
     }
 
     @GetMapping("/store/order/get")
-    public Collection<Product> getAllProductToBasket() {
-        return this.productService.getAllProductToBasket();
+    public Collection<Integer> getAllIdsToBasket() {
+        return this.productService.getAllIdsToBasket();
     }
 }

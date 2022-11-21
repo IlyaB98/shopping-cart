@@ -1,0 +1,440 @@
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-21T143226.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-21T143224.200.json
+
+###
+
+GET http://localhost:8080/order/add?id=12
+
+<> 2022-11-21T143204.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-21T142735.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-21T142733.200.json
+
+###
+
+GET http://localhost:8080/store/order/add?id=12
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+<> 2022-11-21T142700.200.json
+
+###
+
+GET http://localhost:8080/store/order/add?id=12
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+<> 2022-11-21T142658.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-21T142613.200.json
+
+###
+
+GET http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 2
+}
+
+<> 2022-11-21T142605.400.json
+
+###
+
+GET http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 2
+}
+
+<> 2022-11-21T142603.400.json
+
+###
+
+GET http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+<> 2022-11-21T142553.400.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-21T141205.200.json
+
+###
+
+GET http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 2
+}
+
+<> 2022-11-21T141203.200.json
+
+###
+
+GET http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+<> 2022-11-21T141200.200.json
+
+###
+
+GET http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 2
+}
+
+<> 2022-11-21T141014.404.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+<> 2022-11-21T140928.404.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-19T180547.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-19T180545.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 1.2
+}
+
+<> 2022-11-19T180537.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 1.2
+}
+
+<> 2022-11-19T180533.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 1.1
+}
+
+<> 2022-11-19T180527.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-19T180005.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-19T180004.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 2
+}
+
+<> 2022-11-19T180002.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 2
+}
+
+<> 2022-11-19T180001.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+<> 2022-11-19T175959.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-19T175633.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+<> 2022-11-19T175632.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-19T175622.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-19T175620.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 0
+}
+
+<> 2022-11-19T175618.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 0
+}
+
+<> 2022-11-19T175617.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-19T175608.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": -1
+}
+
+<> 2022-11-19T175606.500.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-19T175602.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-19T175600.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 2
+}
+
+<> 2022-11-19T175557.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 2
+}
+
+<> 2022-11-19T175555.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": -1
+}
+
+<> 2022-11-19T175544.500.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-19T175514.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-19T175512.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+<> 2022-11-19T175451.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+<> 2022-11-19T175447.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+<> 2022-11-19T175317.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-19T173634.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-19T173632.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 2
+}
+
+<> 2022-11-19T173630.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 2
+}
+
+<> 2022-11-19T173627.200.json
+
+###
+
+POST http://localhost:8080/store/order/add
+Content-Type: application/json
+
+{
+  "id": 1
+}
+
+<> 2022-11-19T173626.200.json
+
+###
+
+GET http://localhost:8080/store/order/get
+
+<> 2022-11-19T173358.200.json
+
+###
+
